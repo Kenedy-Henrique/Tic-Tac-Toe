@@ -1,0 +1,195 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET ABOVE */
+
+
+
+body {
+	background-color: #FFF;
+}
+header {
+	position: absolute;
+	text-align: center;
+	color: #636363;
+	top: 2%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: Playfair Display;
+	font-size: 4vw;
+}
+
+.scoreBoard {
+	width: 21.962%;
+	position: absolute;
+	top: 10%;
+	left: -30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2vw;
+	border: solid 0.5px;
+	border-color: #63636388;
+	padding: 10px;
+	background-color: #FFF;
+	z-index: 2;
+}
+.scoreBoardText {
+	font-family: Playfair Display; /*Quicksand*/
+	color: #636363;
+	font-size: 2vw;
+}
+.scores {
+	display: flex;
+	gap: 7vw;
+	font-size: 3vw;
+	color: #636363;
+	font-family: Quicksand;
+}
+.xScore {
+	display: flex;
+	gap: 1vw;
+	flex-direction: column;
+	align-items: center;
+}
+.oScore {
+	display: flex;
+	gap: 1vw;
+	flex-direction: column;
+	align-items: center;
+}
+.space {
+    width: 3vw;
+    height: 1px;
+    background-color: #636363;
+}
+.reset {
+	border: none;
+	font-family: Quicksand;
+	font-size: 2vw;
+	color: #636363;
+	background-color: #FFF;
+	border: solid 0.5px;
+	border-color: #63636388;
+	border-radius: 5px;
+}
+.reset:hover {
+	background-color: #636363;
+	color: #FFF;
+}
+
+
+.chooseYourPlayer {
+	width: 21.962%;
+	position: absolute;
+	top: 10%;
+	left: 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2vw;
+	border: solid 0.5px;
+	border-color: #63636388;
+	padding: 10px;
+}
+.chooseYourPlayer p {
+	font-family: Playfair Display;
+	color: #636363;
+	font-size: 2vw;
+}
+.playerChoice {
+	display: flex;
+	width: 9.517vw;
+	height: 3.661vw;
+	gap: 23%;
+}
+#X {
+	width: 38.47%;
+	font-family: Quicksand;
+	font-size: 2.5vw;
+	border: none;
+	color: #636363;
+	background-color: #FFF;
+}
+#X:hover {
+	color: #FFF;
+	background-color: #636363;
+	border-radius: 50%;
+}
+#O {
+	width: 38.47%;
+	font-family: Quicksand;
+	font-size: 2.5vw;
+	border: none;
+	color: #636363;
+	background-color: #FFF;
+}
+#O:hover {
+	color: #FFF;
+	background-color: #636363;
+	border-radius: 50%;
+}
+
+
+.tic-tac-toe {
+    display: grid;
+    height: 65.19%;
+    width: 36.604%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+	transform: translateX(-50%);
+	gap: 5px;
+}
+.tic-tac-toe button {
+    border: none;
+	background-color: #636363;
+	font-family: Quicksand;
+	font-size: 9vw;
+	color: #FFF;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+}
