@@ -173,8 +173,8 @@ header {
 
 .tic-tac-toe {
     display: grid;
-    height: 65.19%;
-    width: 36.604%;
+    height: 35vw;
+    width: 35vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
